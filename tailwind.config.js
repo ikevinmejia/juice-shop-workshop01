@@ -17,7 +17,7 @@ module.exports = {
         'secondary': "#FFDE5A",
         'titles':"#060922",
         'text':"#333232",
-        'fondo' : "rgba(255,126,32,8%)",
+        'fondo' : "rgba(255,126,32,0.08)",
         'bg-cards' : "#FFFFFF",
         'dark-bg' : "#24202A"
 
@@ -38,7 +38,7 @@ module.exports = {
         'primary':"#FF7E20",
         'titles':"#060922",
         'text':"#333232",
-        'fondo' : "rgba(255,126,32,8%)",
+        'fondo' : "rgba(255,126,32,0.08)",
         'bg-cards' : "#FFFFFF",
         'dark-bg' : "#24202A",
         'dark-text' : "#ACACAC"
