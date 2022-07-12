@@ -15,7 +15,7 @@ export const postData = async(url, objetc = {}) =>{
     }
 }
 
-export const DeleteData = async (url) => {
+export const deleteData = async (url) => {
     try {
         
         await axios.delete(url);
