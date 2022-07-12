@@ -1,0 +1,62 @@
+.info {
+    border-radius: 20px;
+    background-color: #FFDE5A;
+    display: block;
+    align-items: left;
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        left:10%;
+        top: 10%;
+  
+    margin: 0 auto;
+  }
+  
+  .imgcos{
+    border-radius: 5px;
+    position: absolute;
+      width: 40%;
+      height: 40%;
+      left:10%;
+      top: 10%;
+  }
+.h2{
+    position: relative;
+    left:10%;
+    top: 45%;
+  }
+
+.cajita{
+    width: 30%;
+    position: absolute;
+        left:60%;
+        top: 20%;
+    }
+
+.cajita2{
+    position: absolute;
+        width: 80%;
+        top: 55%;
+ }
+
+ .bm{
+    color: white;
+    background-color:#23F3DF;
+    position: absolute;
+        top: 80%;
+        width: 10%;
+        height: 5%;
+        left: 50%;
+}
+
+.bm2{
+    border-radius: 50px;
+    color: black;
+    background-color: #FF5858;
+    position: absolute;
+        top: 3%;
+        width: 3%;
+        height: 5%;
+        left: 5%;
+    
+}
