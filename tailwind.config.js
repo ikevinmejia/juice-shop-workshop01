@@ -43,6 +43,12 @@ module.exports = {
         'dark-bg' : "#24202A",
         'dark-text' : "#ACACAC"
       },
+      fontSize:{
+        xl4: '40px'
+      },
+      height:{
+        "100": "500px"
+      }
     },
   },
   plugins: [],
