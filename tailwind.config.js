@@ -13,23 +13,20 @@ module.exports = {
       },
       backgroundColor: theme => ({
         ...theme('colors'),
-        'primary':"#23F3DF",
+        'primary':"#FF7E20",
         'secondary': "#FFDE5A",
-        'tercero' : "#FF5858",
-        'titles':"#24202A",
-        'text':"#ACACAC",
-        'fondo' : "#FAFAFA",
+        'titles':"#060922",
+        'text':"#333232",
+        'fondo' : "rgba(255,126,32,8%)",
         'bg-cards' : "#FFFFFF",
         'dark-bg' : "#24202A"
 
       }),
       textColor: {
-        'primary':"#23F3DF",
-        'secondary': "#FFDE5A",
-        'tercero' : "#FF5858",
-        'titles':"#24202A",
-        'text':"#ACACAC",
-        'fondo' : "#FAFAFA",
+        'primary':"#FF7E20",
+        'titles':"#060922",
+        'text':"#333232",
+        'fondo' : "rgba(255,126,32,0.08)",
         'bg-cards' : "#FFFFFF",
         'dark-bg' : "#24202A",
         'dark-text' : "#ACACAC"
@@ -38,12 +35,10 @@ module.exports = {
         'mm' : '425px',
       },
       colors: {
-        'primary':"#23F3DF",
-        'secondary': "#FFDE5A",
-        'tercero' : "#FF5858",
-        'titles':"#24202A",
-        'text':"#ACACAC",
-        'fondo' : "#FAFAFA",
+        'primary':"#FF7E20",
+        'titles':"#060922",
+        'text':"#333232",
+        'fondo' : "rgba(255,126,32,8%)",
         'bg-cards' : "#FFFFFF",
         'dark-bg' : "#24202A",
         'dark-text' : "#ACACAC"
