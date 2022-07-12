@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Carrito</title>
+</head>
+<body class="bg-fondo ">
+    <div class="container w-screen h-screen m-auto">
+        <header class="container flex items-center h-32 m-auto border-b-2 bg-fondo border-fondo">
+            <div class="ml-10">
+                <img src="../images/Logo.png" alt="">
+            </div>
+            <ul class="flex items-center justify-around text-base font-bold ml-36 gap-14 text-dark-text">
+                <li class="cursor-pointer">HOME</li>
+                <li class="cursor-pointer">PRODUCTS</li>
+                <li class="cursor-pointer">ABOUT US</li>
+                <li class="cursor-pointer">CONTACT</li>
+            </ul>
+            <div class="flex items-center gap-5 ml-32">
+                <img src="../images/facebook.png" alt="" class="h-12 cursor-pointer">
+                <img src="../images/instagram.png" alt="" class="h-12 cursor-pointer">
+                <img src="../images/twitter.png" alt="" class="h-12 cursor-pointer">
+            </div>
+
+            <div class="flex items-center gap-5 ml-28">
+                <img src="../images/shop.png" alt="" class="h-12 cursor-pointer">
+                <img src="../images/user.png" alt="" class="h-12 cursor-pointer">
+            </div>
+        </header>
+
+        <section class="container flex items-center justify-around bg-fondo rounded-b-xl">
+            <div class="mt-14">
+                <h1 class="text-3xl font-semibold text-titles">¡Compra tus productos </h1>
+                <h1 class="font-semibold text-center text-xl4 text-titles">Ahora!</h1>
+            </div>
+            <div class="mt-14">
+                <img src="../images/carrito fondo.png" alt="" class="h-36">
+            </div>
+        </section>
+
+        <section class="container w-full mt-10 overflow-y-scroll bg-white h-100 rounded-xl">
+            <table class="w-3/4 m-auto text-center border-separate border-spacing-y-4 rounded-t-2xl" id="cont">
+                <tr class="">
+                    <th class="border-2 bg-fondo border-fondo">Nombre</th>
+                    <th class="border-2 bg-fondo border-fondo">Descripcion</th>
+                    <th class="border-2 bg-fondo border-fondo">Precio</th>
+                    <th class="border-2 bg-fondo border-fondo">Borrar</th>
+                </tr>
+            <template id="template">
+                <tr class="registro">
+                    <td class="bg-fondo text-text nombre">Burst Juice</td>
+                    <td class="bg-fondo text-text descripcion">Orange 500ml</td>
+                    <td class="bg-fondo text-text precio">$2.50</td>
+                    <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
+                </tr>
+            </template>
+            </table>
+            <table class="w-3/4 m-auto text-center border-separate border-spacing-y-4 rounded-b-2xl">
+                <tr>
+                    <th class="text-xl border-2 bg-fondo border-fondo">Total</th>
+                </tr>
+                <tr>
+                    <td class="bg-fondo" id="total">$7000</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <script src="../scripts/carrito.js" type="module"></script>
+    <script src="../scripts/modules/getCarrito.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
