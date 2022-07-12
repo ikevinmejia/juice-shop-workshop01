@@ -24,3 +24,4 @@ export const deleteData = async (url) => {
       console.log("error")
     }
 }
+

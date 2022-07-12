@@ -42,7 +42,7 @@
         </section>
 
         <section class="container w-full mt-10 overflow-y-scroll bg-white h-100">
-            <table class="w-3/4 m-auto text-center border-t-2 border-separate border-x-2 border-primary border-spacing-y-4 rounded-t-2xl" id="cont">
+            <table class="w-3/4 m-auto text-center border-separate border-spacing-y-4 rounded-t-2xl" id="cont">
                 <tr class="">
                     <th class="border-2 bg-fondo border-fondo">Nombre</th>
                     <th class="border-2 bg-fondo border-fondo">Descripcion</th>
@@ -50,77 +50,26 @@
                     <th class="border-2 bg-fondo border-fondo">Borrar</th>
                 </tr>
             <template id="template">
-                <tr>
+                <tr class="registro">
                     <td class="bg-fondo text-text nombre">Burst Juice</td>
                     <td class="bg-fondo text-text descripcion">Orange 500ml</td>
                     <td class="bg-fondo text-text precio">$2.50</td>
                     <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
                 </tr>
             </template>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
-            <tr>
-                <td class="bg-fondo text-text nombre">Burst Juice</td>
-                <td class="bg-fondo text-text descripcion">Orange 500ml</td>
-                <td class="bg-fondo text-text precio">$2.50</td>
-                <td class="font-medium bg-fondo text-dark-bg"><button class="w-24 border-2 border-black rounded-lg h-7 bg-primary hover:bg-orange-300 btnEliminar">Eliminar</button></td>
-            </tr>
             </table>
-            <table class="w-3/4 m-auto text-center border-b-2 border-separate border-spacing-y-4 border-primary border-x-2 rounded-b-2xl">
+            <table class="w-3/4 m-auto text-center border-separate border-spacing-y-4 rounded-b-2xl">
                 <tr>
                     <th class="text-xl border-2 bg-fondo border-fondo">Total</th>
                 </tr>
                 <tr>
-                    <td class="bg-fondo">$7000</td>
+                    <td class="bg-fondo" id="total">$7000</td>
                 </tr>
             </table>
         </section>
     </div>
+    <script src="../scripts/carrito.js" type="module"></script>
+    <script src="../scripts/modules/getCarrito.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
