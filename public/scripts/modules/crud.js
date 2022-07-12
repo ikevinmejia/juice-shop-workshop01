@@ -1,4 +1,4 @@
-export const URL = 'https://juice-shop-webside.herokuapp.com';
+export const URL = 'https://juice-shop-webside.herokuapp.com/';
 
 export const getData = async(url) => {
     const {data} = await axios.get(url);
