@@ -745,7 +745,7 @@ video {
 }
 
 .bg-fondo {
-  background-color: rgba(255,126,32,0.08);
+  background-color: rgba(255,126,32,8%);
 }
 
 .bg-primary {
@@ -756,15 +756,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FCFBEB\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 251 235 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#d3bf8a93\] {
-  background-color: #d3bf8a93;
 }
 
 .object-contain {
